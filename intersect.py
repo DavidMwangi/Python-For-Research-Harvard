@@ -19,16 +19,4 @@ def intersect(a,b):
             
             result.append(item) #append items on both lists to the result list
             
-    return result#return results to function caller 
-    
-    """
-    
-    Bug report: If two of the same value are in the first list and appear only
-    
-    once on the second list. The result list captures the two instances instead
-    
-    of one.
-    
-    """
-    
-    
+    return set(result)#return results to function caller    

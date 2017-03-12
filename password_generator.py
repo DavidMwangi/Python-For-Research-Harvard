@@ -1,5 +1,5 @@
 import random
-
+from string import ascii_letters, digits
 
 def password(length):
     
@@ -11,17 +11,15 @@ def password(length):
     
     Output: Unique password of the specified length
     
-    """
+    """ 
 
     pw = str()
     
-    characters = 'abcdefghijklmnopqrstuvwxyz'
+    alphabet = ascii_letters
     
-    upperchars = characters.upper()
+    numerals = digits
     
-    nums = "0123456789"
-    
-    characters = characters + upperchars + nums
+    characters = alphabet + numerals
     
     for i in range(length):
         

@@ -1,9 +1,11 @@
-bears = {"Grizzly":"angry", "Brown":"friendly", "Polar":"friendly"}
+is_prime = True
 
-for bear in bears:
-    
-  if bears[bear] == "friendly":
-      print("Hello, "+bear+" bear!")
-  else:
-      print("odd")
+n = 8
 
+for i in range(2,n):
+   if n%i == 0:
+       
+     is_prime = False
+     
+     
+print(is_prime)

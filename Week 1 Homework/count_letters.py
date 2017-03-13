@@ -1,6 +1,6 @@
 from string import ascii_letters
 
-sentence = 'Jim quickly realized that the beautiful gowns are expensive'
+#sentence = 'Jim quickly realized that the beautiful gowns are expensive'
 
 # Create your function here!
 
@@ -31,4 +31,4 @@ def counter(sentence):
 
 
 
-print(counter(sentence))
+#print(counter(sentence))
